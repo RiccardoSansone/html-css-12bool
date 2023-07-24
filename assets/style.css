@@ -6,6 +6,13 @@
     width: 100%;
     height: 25px;
 }
+
+.bg-blu{
+    background-color: #006cfa;
+}
+.bg-green{
+    background-color: #00e165;
+}
 .row-short{
     display: flex;
     width: 95%;
