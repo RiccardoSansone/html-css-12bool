@@ -1,0 +1,13 @@
+.bg-black{
+    background-color: black;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-white{
+    background-color: white;
+}
+
+#debug .col-1{
+    border: 1px dashed white;
+}
