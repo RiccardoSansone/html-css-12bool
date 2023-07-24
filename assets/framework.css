@@ -79,6 +79,30 @@
 .py-2{
     padding: 2rem 0;
 }
+.py-3{
+    padding: 3rem 0;
+}
+.py-4{
+    padding: 4rem 0;
+}
+.py-5{
+    padding: 5rem 0;
+}
+.gap-05{
+    gap: 0.5rem;
+}
+.gap-1{
+    gap: 1rem;
+}
+.gap-2{
+    gap: 2rem;
+}
+.gap-3{
+    gap: 3rem;
+}
+.line-height-1{
+    line-height: 1rem;
+}
 /* #endregion spacing */
 
 /* #region col */
@@ -337,4 +361,4 @@
 /* /breakpoint sm */
 
 
-/* #end region media query */
+/* #endregion media query */
