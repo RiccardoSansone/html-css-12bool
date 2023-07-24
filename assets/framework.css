@@ -29,12 +29,7 @@
 .justify-center{
     justify-content: center;
 }
-.bg-blu{
-    background-color: #006cfa;
-}
-.bg-green{
-    background-color: #00e165;
-}
+
 [class^="col-"]{
     padding: 0.1rem;
 }
