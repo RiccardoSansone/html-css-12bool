@@ -1,0 +1,23 @@
+[class="card"]{
+    background-color:#006cfa;
+}
+.card-green{
+    background-color: #00e165;
+    width: 100%;
+    height: 25px;
+}
+.row-short{
+    display: flex;
+    width: 95%;
+    padding: auto;
+}
+.container{
+    margin-top: 2rem;
+}
+.card, .card-green{
+    color: white;
+}
+.card-green{
+    font-size: smaller;
+}
+

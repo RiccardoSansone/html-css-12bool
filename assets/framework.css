@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 100%;
+    height: 50px;
+}
+.text-align-center{
+    text-align: center;
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.bg-blu{
+    background-color: #006cfa;
+}
+.bg-green{
+    background-color: #00e165;
+}
+[class^="col-"]{
+    padding: 0.1rem;
+}
+
+/* #region spacing */
+.pad-1{
+    padding: 1rem;
+}
+.pad-2{
+    padding: 2rem;
+}
+.p-05{
+    padding: 0 0.5rem;
+}
+.p-1{
+    padding: 0 1rem;
+}
+.p-2{
+    padding: 0 2rem;
+}
+.p-3{
+    padding: 0 3rem;
+}
+.p-4{
+    padding: 0 4rem;
+}
+.pl-1{
+    padding-left: 1rem;
+}
+.pl-2{
+    padding-left: 2rem;
+}
+.pt-05{
+    padding-top: 0.5rem;
+}
+.py-05{
+    padding: 0.5rem 0;
+}
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+/* #endregion spacing */
+
+/* #region col */
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+.col-1{
+    width: calc(100% / 12 * 1);
+}
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+.col-9{
+    width: calc(100% / 12 * 9);
+}
+.col-10{
+    width: calc(100% / 12 * 10);
+}
+.col-11{
+    width: calc(100% / 12 * 11);
+}
+.col-12{
+    width: calc(100% / 12 * 12);
+}
+/* #endregion col */
+
+/* #region offsets */
+.col-offset-1{
+    margin-left: calc(100% / 12 * 1);
+}
+.col-offset-2{
+    margin-left: calc(100% / 12 * 2);
+}
+.col-offset-3{
+    margin-left: calc(100% / 12 * 3);
+}
+.col-offset-4{
+    margin-left: calc(100% / 12 * 4);
+}
+.col-offset-5{
+    margin-left: calc(100% / 12 * 5);
+}
+.col-offset-6{
+    margin-left: calc(100% / 12 * 6);
+}
+.col-offset-7{
+    margin-left: calc(100% / 12 * 7);
+}
+.col-offset-8{
+    margin-left: calc(100% / 12 * 8);
+}
+.col-offset-9{
+    margin-left: calc(100% / 12 * 9);
+}
+.col-offset-10{
+    margin-left: calc(100% / 12 * 10);
+}
+.col-offset-11{
+    margin-left: calc(100% / 12 * 11);
+}
+/* #endregion offsets */
