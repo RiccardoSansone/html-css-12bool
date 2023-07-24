@@ -1,9 +1,28 @@
 .bg-black{
     background-color: black;
+    transition: 0.5s;
 }
 .bg-yellow{
     background-color: yellow;
+    transition: 0.5s;
 }
 .bg-white{
     background-color: white;
+}
+
+.container:hover{
+    .bg-black{
+        background-color: yellow;
+    }
+    .bg-yellow{
+        background-color: black;
+    }
+}
+
+body{
+    transition: 2s;
+}
+
+body:hover{
+    background-color:red;
 }
